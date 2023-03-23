@@ -1,0 +1,55 @@
+/* directives tailwind */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* variables */
+:root {
+  --color-primary: #0D0D2B;
+  --color-secondary: #2B076E;
+  --color-accent: #3671E9;
+  --color-white: #FFFFFF;
+  --color-white10: #ffffff0a;
+  --color-grey0: #F2F2F2;
+  --color-grey1: #E0E0E0;
+  --color-grey2: #BDBDBD;
+  --color-grey3: #828282;
+}
+
+/* body */;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  color: var(--text-color);
+  background-color: var(--main-color);
+  font-size: 1rem;
+  height: 100vh;
+  overflow-x: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none !important;
+    transition: background-color 1s ease;
+}
+
+/* body::-webkit-scrollbar {
+  display: none;
+} */
+
+
+/* text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin: 0;
+  cursor: default;
+}
