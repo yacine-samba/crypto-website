@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <div className='flex flex-row justify-between'>
         <div className="headerLogo flex flex-row items-center">
-            <img src={logo} alt="Logo crappo" />
+            <img src={logo} alt="Logo Crappo" />
             <p className='font-medium text-lg mx-4'>CRAPPO</p>
         </div>
         <div className="headerNavbar flex flex-row items-center">
