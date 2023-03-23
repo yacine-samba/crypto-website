@@ -25,9 +25,9 @@
 }
 
 body {
-  font-family: "Archivo", sans-serif;
-  color: var(--text-color);
-  background-color: var(--main-color);
+  font-family: "Rubik", sans-serif;
+  color: var(--color-grey0);
+  background-color: var(--color-primary);
   font-size: 1rem;
   height: 100vh;
   overflow-x: hidden;

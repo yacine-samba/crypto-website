@@ -13,7 +13,8 @@ module.exports = {
       "grey0": '#F2F2F2',
       "grey1": '#E0E0E0',
       "grey2": '#BDBDBD',
-      "grey3": '#828282'
+      "grey3": '#828282',
+      transparent: 'transparent'
     },
     extend: {},
   },
